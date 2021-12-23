@@ -10,11 +10,11 @@ namespace NQueens
     {
         static void Main(string[] args)
         {
-            eightQueens.Test();
+            EightQueens.Test();
         }
     }
 
-    public class eightQueens
+    public class EightQueens
     {
         //定義皇后數
         static int gridSize = 8;
@@ -28,7 +28,7 @@ namespace NQueens
 
         public static void Test()
         {
-            eightQueens.RunQueen(0);
+            EightQueens.RunQueen(0);
             Console.WriteLine($"一共有{count}種解法");
             Console.ReadLine();
         }
